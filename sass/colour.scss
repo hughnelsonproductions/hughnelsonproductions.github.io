@@ -1,0 +1,20 @@
+// colour palette
+$theme-primary: green;
+$theme-secondary: green;
+
+// text colour
+
+$copy-colour: #414342;
+$heading-colour: #2B3F39;
+$copy-colour-light: #B6C6B8;
+$heading-colour-light: #DBE0E1;
+
+// typography
+footer {
+  background-color: $heading-colour;
+
+}
+
+footer h5 {
+  color: $heading-colour-light;
+}
