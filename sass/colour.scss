@@ -6,8 +6,8 @@ $theme-secondary: green;
 
 $copy-colour: #414342;
 $heading-colour: #2B3F39;
-$copy-colour-light: #B6C6B8;
-$heading-colour-light: #DBE0E1;
+$copy-colour-light: white;
+$heading-colour-light: white;
 
 // typography
 footer {
@@ -17,4 +17,9 @@ footer {
 
 footer h5 {
   color: $heading-colour-light;
+}
+
+
+body {
+  background-color: black;
 }

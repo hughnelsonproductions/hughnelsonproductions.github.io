@@ -12,13 +12,17 @@ $leading: $base-font-size * $line-height-body;
 h1, h2, h3, h4, h5, h6, a, footer {
   font-family: $primary-stack;
   font-weight: bold;
-  color: $heading-colour;
+  color: $heading-colour-light;
   line-height: $line-height-heading;
+}
+
+h5 {
+  font-weight: 300;
 }
 
 small, p {
   font-family: $secondary-stack;
-  color: $copy-colour;
+  color: $copy-colour-light;
   line-height: $line-height-body;
   font-weight: 400;
 }
@@ -114,7 +118,7 @@ nav .deselected-tab {
 
 nav .deselected-tab:hover {
   font-weight: 700;
-  color: $heading-colour;
+  color: cyan;
   text-decoration: none;
 }
 
@@ -125,4 +129,9 @@ a:hover {
 
 nav .selected-tab {
   font-weight: 700;
+}
+
+
+.extra-padding {
+  padding-top: 15px;
 }
